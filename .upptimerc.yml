@@ -12,15 +12,7 @@ sites:
   - name: 雙龍體育blog
     url: https://BLOG.ssangyongsports.eu.org/
   - name: 雙龍體育社區
-    url: http://community.ssangyongsports.eu.org/
-  - name: 雙龍體育WIKI 
-    url: https://WIKI.ssangyongsports.eu.org/
-  - name: 雙龍體育TV 
-    url: https://tv.ssangyongsports.eu.org/ 
-   - name: 雙龍體育TV後台
-    url: https://watch.tv.ssangyongsports.eu.org/
-  - name: 雙龍體育img
-    url: https://sangyongsports.eu.org/    
+    url: http://community.ssangyongsports.eu.org
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
