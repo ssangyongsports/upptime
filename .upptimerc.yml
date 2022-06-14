@@ -1,20 +1,40 @@
-# 你的 GitHub username
-owner: ssangyongsports
+# Change these first
+owner: ssangyongsports # Your GitHub organization or username, where this repository lives
+repo: upptime # The name of this repository
 
-# 你的 GitHub repo name
-repo: upptime
-
-# 加入要監控的網站名稱與 URL
 sites:
-  - name: AnnKuoQ Blog
-    url: https://annkuoq.github.io/blog/
-
-# 移除 cname，因為我沒有自己的 domain，所以改用 baseUrl，輸入 repo 名稱
+  - name: 雙龍體育
+    url: https://www.ssangyongsports.eu.org/
+  - name: 雙龍職籃
+    url: https://sbatw.ml
+  - name: 雙龍職棒
+    url: https://slbtw.cf
+  - name: 雙龍體育blog
+    url: https://BLOG.ssangyongsports.eu.org/
+  - name: 雙龍體育社區
+    url: http://community.ssangyongsports.eu.org/
+  - name: 雙龍體育WIKI 
+    url: https://WIKI.ssangyongsports.eu.org/
+  - name: 雙龍體育TV 
+    url: https://tv.ssangyongsports.eu.org/ 
+   - name: 雙龍體育TV後台
+    url: https://watch.tv.ssangyongsports.eu.org/
+  - name: 雙龍體育img
+    url: https://sangyongsports.eu.org/    
 status-website:
-    #cname: demo.upptime.js.org (移除)
-    baseUrl: /upptime 
-
-# 自訂狀態頁面的 navbar 名稱與連結
-navbar:
+  # Add your custom domain name, or remove the `cname` line if you don't have a domain
+  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  # cname: demo.upptime.js.org
+  baseUrl: /upptime
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  name: Upptime
+  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  navbar:
     - title: Status
-      href: /upptime
+      href: /
+    - title: GitHub
+      href: https://github.com/ssangyongsports/upptime/
+
+# Upptime also supports notifications, assigning issues, and more
+# See https://upptime.js.org/docs/configuration
