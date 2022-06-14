@@ -1,33 +1,20 @@
-# Change these first
-owner: ssangyongsports # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# 你的 GitHub username
+owner: ssangyongsports
 
+# 你的 GitHub repo name
+repo: upptime
+
+# 加入要監控的網站名稱與 URL
 sites:
-  - name: 雙龍體育
-    url: https://www.google.com
-  - name: GitHub
-    url: https://www.githubstatus.com/api/v2/status.json
-    __dangerous__body_degraded: 'Minor Service Outage'
-    __dangerous__body_down: 'Major Service Outage'
-  - name: Slack
-    url: https://status.slack.com/api/v2.0.0/current
-    __dangerous__body_degraded: '"type":"incident"'
-    __dangerous__body_down: '"type":"outage"'
+  - name: AnnKuoQ Blog
+    url: https://annkuoq.github.io/blog/
 
+# 移除 cname，因為我沒有自己的 domain，所以改用 baseUrl，輸入 repo 名稱
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: demo.upptime.js.org
-  baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/ssangyongsports/upptime
+    #cname: demo.upptime.js.org (移除)
+    baseUrl: /upptime 
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# 自訂狀態頁面的 navbar 名稱與連結
+navbar:
+    - title: Status
+      href: /upptime
