@@ -31,9 +31,4 @@ status-website:
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
-i18n:
-  liveStatusHtmlComment: "<!--live status-->"
-  allSystemsOperational: "所有系統均可運行"
-  degradedPerformance: "🟨 Degraded performance"
-  completeOutage: "🟥 Complete outage"
-  partialOutage: "🟧 Partial outage"
+
